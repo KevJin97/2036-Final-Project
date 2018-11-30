@@ -1,0 +1,3 @@
+/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/CMakeFiles/2036SkeletonCmake.dir

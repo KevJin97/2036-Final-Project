@@ -6,22 +6,22 @@ class GameObject
 {
 	public:
 		GameObject();	//constructor
-		bool load();
-		void draw();
-		void update();
-		void setPosition(float x, float y);
-		void move(sf::Vector2f);
+		virtual bool load() = 0;
+		virtual void draw() = 0;
+		virtual void update() = 0;
+		virtual void setPosition(float x, float y) = 0;
+		virtual void move(sf::Vector2f) = 0;
 		
-		sf::Vector2f getPosition() const;
-		float getHeight() const;
-		float getWidth() const;
-		void processEvents();
-		void handlePlayerInput(sf::Keyboard::Key key, bool isDown);
+		virtual sf::Vector2f getPosition() const = 0;
+		virtual float getHeight() const = 0;
+		virtual float getWidth() const = 0;
+		virtual void processEvents() = 0;
+		virtual void handlePlayerInput(sf::Keyboard::Key key, bool isDown) = 0;
 		
-		void setfilepath(std::string);			//use in Game constructor
-		void setwindow(sf::RenderWindow&);		//use in Game constructor
-		void settime(sf::Time&);				//use in Game constructor
-		void setScale(float);					//use in Game constructor
+		virtual void setfilepath(std::string) = 0;			//use in Game constructor
+		virtual void setwindow(sf::RenderWindow&) = 0;		//use in Game constructor
+		virtual void settime(sf::Time&) = 0;				//use in Game constructor
+		virtual void setScale(float) = 0;					//use in Game constructor
 		
 	private:
 		sf::Sprite m_sprite;

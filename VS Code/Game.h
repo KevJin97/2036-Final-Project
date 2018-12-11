@@ -18,5 +18,5 @@ class Game
 		sf::Time deltaT;
 		
 		GameObject player1;
-		GameObject player2;
+		//GameObject player2;
 };

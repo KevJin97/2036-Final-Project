@@ -2,11 +2,19 @@
 #include "pch.h"
 #include "GameObject.h"
 
-bool GameObject::load(const std::string &filename)	//loads sprite from file
+GameObject::GameObject()
 {
-	if (m_texture.loadFromFile(filename))
+	m_left = false;
+	m_right = false;
+	m_up = false;
+	m_down = false;
+	m_valid = false;
+}
+
+bool GameObject::load()
+{
+	if (m_texture.loadFromFile(filepath))
 	{
-		m_filename = filename;
 		m_sprite.setTexture(m_texture);
 		m_valid = true;
 		return true;
@@ -17,12 +25,7 @@ bool GameObject::load(const std::string &filename)	//loads sprite from file
 	}
 }
 
-void GameObject::setwindow(sf::RenderWindow &windowin)
-{
-	m_window = &windowin;
-}
-
-void GameObject::draw()	//draws inside of window
+void GameObject::draw()
 {
 	if (m_valid)
 	{
@@ -46,14 +49,14 @@ void GameObject::processEvents()
 	{
 		switch (event.type)
 		{
-			case sf::Event::KeyPressed:			//Press on Key
+			case sf::Event::KeyPressed:
 				handlePlayerInput(event.key.code, true);
 				break;
 				
-			case sf::Event::KeyReleased:		//Release Key
+			case sf::Event::KeyReleased:
 				handlePlayerInput(event.key.code, false);
 				break;
-				
+			
 			case sf::Event::Closed:
 				m_window->close();
 				break;
@@ -81,7 +84,7 @@ void GameObject::handlePlayerInput(sf::Keyboard::Key key, bool isDown)
 	}
 }
 
-void GameObject::update(sf::Time &deltaT)
+void GameObject::update()
 {
 	sf::Vector2f movement(0.0f, 0.0f);
 	if (m_up)
@@ -101,7 +104,7 @@ void GameObject::update(sf::Time &deltaT)
 		movement.x += m_speed;
 	}
 	
-	this->move(movement * deltaT.asSeconds());
+	this->move(movement * deltaT->asSeconds());
 }
 
 void GameObject::setPosition(float x, float y)
@@ -132,6 +135,21 @@ float GameObject::getHeight() const
 float GameObject::getWidth() const
 {
 	return m_sprite.getLocalBounds().width;
+}
+
+void GameObject::setfilepath(std::string path)			//use in Game constructor
+{
+	filepath = path;
+}
+
+void GameObject::setwindow(sf::RenderWindow &temp)		//use in Game constructor
+{
+	m_window = &temp;
+}
+
+void GameObject::settime(sf::Time &dT)				//use in Game constructor
+{
+	deltaT = &dT;
 }
 
 void GameObject::setScale(float scale)

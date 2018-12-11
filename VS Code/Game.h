@@ -8,16 +8,15 @@ class Game
 	public:
 		Game();
 		void run();
-	
-	protected:
+		
+	private:
 		void update();
-		virtual void processEvents();
+		void processEvents();
 		void render();
 		
 		sf::RenderWindow m_window;
-
 		sf::Time deltaT;
 		
-		GameObject m_player1;
-		GameObject m_player2;
+		GameObject player1;
+		GameObject player2;
 };

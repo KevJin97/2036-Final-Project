@@ -1,8 +1,2 @@
-﻿  2036_final_project.cpp
-  Game.cpp
-  GameObject.cpp
-c:\users\jin\source\repos\2036_final_project\2036_final_project\game.h(21): error C3646: 'm_player1': unknown override specifier
-c:\users\jin\source\repos\2036_final_project\2036_final_project\game.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\jin\source\repos\2036_final_project\2036_final_project\game.h(22): error C3646: 'm_player2': unknown override specifier
-c:\users\jin\source\repos\2036_final_project\2036_final_project\game.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  Generating Code...
+﻿  GameObject.cpp
+  2036_final_project.vcxproj -> C:\Users\Jin\source\repos\2036_final_project\Debug\2036_final_project.exe

@@ -8,153 +8,109 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug"/>
+				<Option working_dir="/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug"/>
+				<Option working_dir="/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug"/>
+				<Option working_dir="/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="2036SkeletonCmake">
-				<Option output="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/2036SkeletonCmake" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug"/>
+				<Option output="/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/2036SkeletonCmake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 2036SkeletonCmake"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 2036SkeletonCmake"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="2036SkeletonCmake/fast">
-				<Option output="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/2036SkeletonCmake" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug"/>
+				<Option output="/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/2036SkeletonCmake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 2036SkeletonCmake/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 2036SkeletonCmake/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/CMakeLists.txt">
+		<Unit filename="/Users/jozein/Desktop/2036SkeletonCmake/AnimatedGameObject.cpp">
 			<Option target="2036SkeletonCmake"/>
 		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/Game.cpp">
+		<Unit filename="/Users/jozein/Desktop/2036SkeletonCmake/AnimatedGameObject.h">
 			<Option target="2036SkeletonCmake"/>
 		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/Game.h">
+		<Unit filename="/Users/jozein/Desktop/2036SkeletonCmake/Game.cpp">
 			<Option target="2036SkeletonCmake"/>
 		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/GameObject.cpp">
+		<Unit filename="/Users/jozein/Desktop/2036SkeletonCmake/Game.h">
 			<Option target="2036SkeletonCmake"/>
 		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/GameObject.h">
+		<Unit filename="/Users/jozein/Desktop/2036SkeletonCmake/GameObject.cpp">
 			<Option target="2036SkeletonCmake"/>
 		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/build/2036SkeletonCmake">
+		<Unit filename="/Users/jozein/Desktop/2036SkeletonCmake/GameObject.h">
 			<Option target="2036SkeletonCmake"/>
 		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/build/CMakeCache.txt">
+		<Unit filename="/Users/jozein/Desktop/2036SkeletonCmake/RegularGameObject.cpp">
 			<Option target="2036SkeletonCmake"/>
 		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/build/Makefile">
+		<Unit filename="/Users/jozein/Desktop/2036SkeletonCmake/RegularGameObject.h">
 			<Option target="2036SkeletonCmake"/>
 		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/build/Mario.jpg">
+		<Unit filename="/Users/jozein/Desktop/2036SkeletonCmake/main.cpp">
 			<Option target="2036SkeletonCmake"/>
 		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/build/Mario.png">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/build/cmake_install.cmake">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/build/content/Mario.jpg">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/build/content/Mario.png">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/2036SkeletonCmake">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/2036SkeletonCmake.cbp">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/CMakeCache.txt">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Makefile">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Mario.jpg">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/Mario.png">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/cmake_install.cmake">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/content/Mario.png">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake/FindSFML.cmake">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/main.cpp">
-			<Option target="2036SkeletonCmake"/>
-		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/CMakeLists.txt">
+		<Unit filename="/Users/jozein/Desktop/2036SkeletonCmake/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake/FindSFML.cmake">
+		<Unit filename="/Users/jozein/Desktop/2036SkeletonCmake/cmake/FindSFML.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
 	</Project>

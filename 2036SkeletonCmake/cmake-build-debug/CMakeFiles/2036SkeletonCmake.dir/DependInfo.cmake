@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/Game.cpp" "/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/CMakeFiles/2036SkeletonCmake.dir/Game.cpp.o"
-  "/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/GameObject.cpp" "/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/CMakeFiles/2036SkeletonCmake.dir/GameObject.cpp.o"
-  "/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/main.cpp" "/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/CMakeFiles/2036SkeletonCmake.dir/main.cpp.o"
+  "/Users/jozein/Desktop/2036SkeletonCmake/AnimatedGameObject.cpp" "/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/CMakeFiles/2036SkeletonCmake.dir/AnimatedGameObject.cpp.o"
+  "/Users/jozein/Desktop/2036SkeletonCmake/Game.cpp" "/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/CMakeFiles/2036SkeletonCmake.dir/Game.cpp.o"
+  "/Users/jozein/Desktop/2036SkeletonCmake/GameObject.cpp" "/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/CMakeFiles/2036SkeletonCmake.dir/GameObject.cpp.o"
+  "/Users/jozein/Desktop/2036SkeletonCmake/RegularGameObject.cpp" "/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/CMakeFiles/2036SkeletonCmake.dir/RegularGameObject.cpp.o"
+  "/Users/jozein/Desktop/2036SkeletonCmake/main.cpp" "/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/CMakeFiles/2036SkeletonCmake.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

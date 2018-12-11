@@ -1,4 +1,4 @@
-# Install script for directory: /Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake
+# Install script for directory: /Users/jozein/Desktop/2036SkeletonCmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -6,19 +6,51 @@
 
 #IncludeRegexTransform: 
 
-/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/Game.cpp
-Game.h
-/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/Game.h
+/Users/jozein/Desktop/2036SkeletonCmake/AnimatedGameObject.cpp
+AnimatedGameObject.h
+/Users/jozein/Desktop/2036SkeletonCmake/AnimatedGameObject.h
 
-/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/Game.h
+/Users/jozein/Desktop/2036SkeletonCmake/AnimatedGameObject.h
+GameObject.h
+/Users/jozein/Desktop/2036SkeletonCmake/GameObject.h
+
+/Users/jozein/Desktop/2036SkeletonCmake/Game.cpp
+Game.h
+/Users/jozein/Desktop/2036SkeletonCmake/Game.h
+iostream
+-
+
+/Users/jozein/Desktop/2036SkeletonCmake/Game.h
 SFML/Graphics.hpp
 -
 GameObject.h
-/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/GameObject.h
+/Users/jozein/Desktop/2036SkeletonCmake/GameObject.h
+RegularGameObject.h
+/Users/jozein/Desktop/2036SkeletonCmake/RegularGameObject.h
+AnimatedGameObject.h
+/Users/jozein/Desktop/2036SkeletonCmake/AnimatedGameObject.h
 
-/Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/GameObject.h
+/Users/jozein/Desktop/2036SkeletonCmake/GameObject.cpp
+GameObject.h
+/Users/jozein/Desktop/2036SkeletonCmake/GameObject.h
+
+/Users/jozein/Desktop/2036SkeletonCmake/GameObject.h
 SFML/Graphics.hpp
 -
+
+/Users/jozein/Desktop/2036SkeletonCmake/RegularGameObject.cpp
+RegularGameObject.h
+/Users/jozein/Desktop/2036SkeletonCmake/RegularGameObject.h
+
+/Users/jozein/Desktop/2036SkeletonCmake/RegularGameObject.h
+GameObject.h
+/Users/jozein/Desktop/2036SkeletonCmake/GameObject.h
+
+/Users/jozein/Desktop/2036SkeletonCmake/main.cpp
+SFML/Graphics.hpp
+-
+Game.h
+/Users/jozein/Desktop/2036SkeletonCmake/Game.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

@@ -1,5 +1,5 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake
--- Found SFML .. in /usr/local/include
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jozein/Desktop/2036SkeletonCmake
+-- Found SFML 2.4.2 in /usr/local/include
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/matthew/Desktop/ECE2036/Lab5/2036SkeletonCmake/cmake-build-debug
+-- Build files have been written to: /Users/jozein/Desktop/2036SkeletonCmake/cmake-build-debug

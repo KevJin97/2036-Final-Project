@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/2036SkeletonCmake.dir/main.cpp.o"
   "CMakeFiles/2036SkeletonCmake.dir/Game.cpp.o"
   "CMakeFiles/2036SkeletonCmake.dir/GameObject.cpp.o"
-  "CMakeFiles/2036SkeletonCmake.dir/main.cpp.o"
+  "CMakeFiles/2036SkeletonCmake.dir/AnimatedGameObject.cpp.o"
+  "CMakeFiles/2036SkeletonCmake.dir/RegularGameObject.cpp.o"
   "2036SkeletonCmake.pdb"
   "2036SkeletonCmake"
 )
